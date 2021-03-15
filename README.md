@@ -1,13 +1,19 @@
 # c-maze-solver
 Input Format:
 First provide the dimensions of the maze.
+
 The next line is the location of the agent.
-The next line is the location of the goal
+
+The next line is the location of the goal.
+
 The next lines upto a "$" provide locations for blocks to be placed in the maze.
+
 These blocks cannot be traversed through.
+
 Then provide a sample path. This path will be verified, or fixed if not valid.
 
 Eg:
+```
 Input:
 3x3
 [0,0]
@@ -40,3 +46,4 @@ There is a block on this route!
 [0,0]->[0,1]->[0,2]->[1,2]->[2,2].
 The route is valid!
 ================================================
+```
