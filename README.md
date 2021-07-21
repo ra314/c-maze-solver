@@ -1,5 +1,14 @@
 # c-maze-solver
-Input Format:
+## Goal:
+Given a grid with obstacles, a starting point, an end point and a proposed path.
+
+Check if the path is valid.
+
+If not fix the path so that it is valid.
+
+The alternate path is discovered through BFS.
+
+## Input Format:
 First provide the dimensions of the maze.
 
 The next line is the location of the agent.
@@ -12,7 +21,7 @@ These blocks cannot be traversed through.
 
 Then provide a sample path. This path will be verified, or fixed if not valid.
 
-Eg:
+## Eg:
 ```
 Input:
 3x3
@@ -21,7 +30,7 @@ Input:
 [1,1]
 [1,0]
 $
-[0,0]->[0,1]->[0,2]->[1,2]->[2,2]
+[0,0]->[0,1]->[1,1]->[1,2]->[2,2]
 
 Output:
 ==STAGE 0=======================================
